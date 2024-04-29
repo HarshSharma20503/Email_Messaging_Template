@@ -1,0 +1,21 @@
+{
+    "name": "email_messaging_template",
+    "version": "1.0.0",
+    "description": "This is a project which can be used to send customised email to the multiple users.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "nodemailer": "^6.9.13",
+        "nodemailer-express-handlebars": "^6.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Email Content</title>
+    <style type="text/css">
+        .text{
+            height: 200px;
+            width: 100%;
+            border: 2px solid black;
+            background-color: rgb(139, 143, 216);
+        }
+        @media only screen and (max-width: 400px) {
+             .container-fluid, .row{
+                width:100%;
+            }
+            .bg-dark{
+                background-color: #000000;
+            }
+            .headingBlock{
+                height: 100px;
+                background-color: yellow;
+            }
+        }
+    </style>
+  </head>
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="image-block">
+            <img src="cid:unique@nodemailer.com" alt="test-image">
+        </div>
+        <div class="row bg-danger">
+            <div class="headingBlock">
+                <h1 class="text-center text-warning">Heading</h1>
+            </div>
+        </div>
+        <div class="div">
+            <p class="text">
+                You can use css and also attach images using cid: than the same id that you put in attachments or you can put any inline styling.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
